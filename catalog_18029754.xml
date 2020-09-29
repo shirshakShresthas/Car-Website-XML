@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_18029754.css"?>
+<car_shop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='catalog_18029754.xsd'>
+	<shop_details><!-- contains information about shop-->
+		<shop_name shop_id="s01">Honda Garage</shop_name>
+		<address format="city/distrcit">Naxal,Kathmandu</address>
+		<telephone_number>01111111</telephone_number>
+		<web_address>www.hondagarage.com</web_address>
+		<slogan> The Drive of your Life. </slogan>
+		<logo logo_name="company logo"/>
+	</shop_details>
+	<!--car items available in shop-->
+    <items>
+        <item><!--information about Seden-->
+		      <car_image id="c101" name="Seden"/>
+	          <item_name>Honda City</item_name>
+		      <item_number>Item number :- 01</item_number>
+		      <brand_name brand_id="B01">Brand name :- Honda</brand_name>
+		      <quantity>Quantity :- 2</quantity>
+		      <price>Price :- Rs 45 lakh</price>
+		      <manufacturer  address="japan">Manufacturer :- Honda</manufacturer>
+		      <car_type>Car type :- Fuel</car_type>
+		      <color >Color :- Red</color>
+		      <dimension>Dimension :-  4,549mm length, 1,748mm width, 1,489mm height</dimension>
+		      <GearType> gear Type :- 6-speed automatic  </GearType>
+		      <seating_capacity>Seat capacity :- 5 seater</seating_capacity>
+		      <Displacement>Displacement :- 17.4 kmpl </Displacement>
+		      <Power>Power :- 118bhp and 99bhp </Power>
+		      <Torque>Torque :- 6-speed MT and CVT automatic</Torque>
+		      <description> Description :- The Honda City is offered with 1 petrol engine. Motor Fuel is 1497 cc. It is available with the Automatic and Manual Transmission. </description>
+	    </item>
+        <item><!--information about BMW-->
+		      <car_image id="c102" name="Seden"/>
+	          <item_name>BMW i8</item_name>
+		      <item_number>Item number :- 03</item_number>
+		      <brand_name brand_id="b1">Brand name :- BMW</brand_name>
+		      <quantity>Quantity :-1</quantity>
+		      <price>Price :-Rs 20 Crore</price>
+		      <manufacturer  address="japan">Manufacturer :- BMW</manufacturer>
+		      <car_type>Car type :- Electric</car_type>
+		      <color >Color :-Reddish </color>
+		      <dimension>Dimension :- 4,696mm length, 1,943 mm width, 1,290 mm height</dimension>
+		      <GearType>gear Type :-  6-speed automatic </GearType>
+		      <seating_capacity>Seat capacity :- 4 seater</seating_capacity>
+		      <Displacement>Displacement :- 8.0 L/100km </Displacement>
+		      <Power>Power :- 141 hp @ 4,800 rpm (105 kW)</Power>
+		      <Torque>Torque :- 236 Nm</Torque>
+		       <description> Description :- BMW i8 2019 is a Supercar. A 1.5-liter turbocharged three-cylinder engine generates 228 horsepower and 236 pound-feet torque.</description>
+	    </item>  
+		 <item><!--information about Honda SUV -->
+		      <car_image id="c103" name="SUV"/>
+	          <item_name>Honda BR-V</item_name>
+		      <item_number>Item number :- 03</item_number>
+		      <brand_name brand_id="B01">Brand name :-Honda</brand_name>
+		      <quantity>Quantity :-5</quantity>
+		      <price>Price :- Rs 1.2 crore</price>
+		      <manufacturer  address="japan">Manufacturer :- Honda</manufacturer>
+		      <car_type>Car type :- Fuel</car_type>
+		      <color >Color :- Reddish</color>
+		      <dimension>Dimension :-(4,591 x 1,855 x 1,679) mm</dimension>
+		      <GearType>gear Type :- Earth Dreams CVT (A) </GearType>
+		      <seating_capacity>Seat capacity :- 7 seater</seating_capacity>
+		      <Displacement>Displacement :- 15.2 kmpl </Displacement>
+		      <Power>Power :- 142kW (190 bhp)</Power>
+		      <Torque>Torque :- 243 Nm</Torque>
+		       <description>Description :- Honda BR-V 7-seater with stunning looks and powerful VTEC diesel / petrol engines.</description>
+	    </item>
+		 <item><!--information about Honda Hatchback -->
+		      <car_image id="c104" name="Hatchback"/>
+	          <item_name>Hybrid Honda</item_name>
+		      <item_number>Item number :-04</item_number>
+		      <brand_name brand_id="B01">Brand name :-Honda</brand_name>
+		      <quantity>Quantity :-1</quantity>
+		      <price>Price :-Rs 10 Crore</price>
+		      <manufacturer address="japan">Manufacturer :- Honda</manufacturer>
+		      <car_type>Car type :- Hybrid</car_type>
+		      <color >Color :- Grey </color>
+		      <dimension>Dimension :- (4,080 x 1,740 x 1,395) mm</dimension>
+		      <GearType>gear Type :- 6-Speed Manual Transmission (6MT) </GearType>
+		      <seating_capacity>Seat capacity :- 4 seater</seating_capacity>
+		      <Displacement>Displacement :- 1497 cc</Displacement>
+		      <Power>Power :- 92kW (124 bhp)</Power>
+		      <Torque>Torque :- 167 Nm</Torque>
+		       <description>Description :- The Hybrid Honda is the powertrain works by combining a gasoline combustion engine with an electric motor and battery operated motors.</description>
+	    </item>
+		 <item><!--information about Peugeot -->
+		      <car_image id="c105" name="Hatchbacks"/>
+	          <item_name>Puegeot 2008</item_name>
+		      <item_number>Item number :-05</item_number>
+		      <brand_name brand_id="B01">Brand name :-Peugeot</brand_name>
+		      <quantity>Quantity :-2</quantity>
+		      <price>Price :-Rs 50 Lakh</price>
+		      <manufacturer address="japan">Manufacturer :-  French automotive</manufacturer>
+		      <car_type>Car type :- Fuel</car_type>
+		      <color >Color :- Reddish</color>
+		      <dimension>Dimension :- (4,159 x 2,004 x 1,554) mm</dimension>
+		      <GearType>gear Type :- 6-Speed Manual Transmission (6MT) </GearType>
+		      <seating_capacity>Seat capacity :-4 seater</seating_capacity>
+		      <Displacement>Displacement :- 1598cc</Displacement>
+		      <Power>Power :- 122 kW</Power>
+		      <Torque>Torque :-205 Nm</Torque>
+		       <description>Description :- The Puegeot 2008 features a 1.6 inline four Turbo engine, which produces a 4,300 rpm torque of 163 hp (122 kW) and 243 Nm.</description>
+	    </item>
+		 <item><!--information about Honda Civic-->
+		      <car_image id="c106" name="Seden"/>
+	          <item_name>Honda Civic</item_name>
+		      <item_number>Item number :-06</item_number>
+		      <brand_name brand_id="B01">Brand name :- Honda</brand_name>
+		      <quantity>Quantity :-3</quantity>
+		      <price>Price :-1 Crore</price>
+		      <manufacturer  address="japan">Manufacturer :- Honda</manufacturer>
+		      <car_type>Car type :- Fuel</car_type>
+		      <color >Color :-Grey</color>
+		      <dimension>Dimension :- (4,656 x 1,799 x 1,395) mm</dimension>
+		      <GearType>gear Type :- 6-Speed Manual or CVT </GearType>
+		      <seating_capacity>Seat capacity :-5 seated</seating_capacity>
+		      <Displacement>Displacement :- 2.0 L/122.</Displacement>
+		      <Power>Power :- 158 HP / 138 LB-FT</Power>
+		      <Torque>Torque :-138 Nm</Torque>
+		       <description>Description :- The 2019 Civic comes standard with a manual six-speed transmission and a four-cylinder 2.0-liter engine that produces 158 horsepower </description>
+	    </item>
+	</items>
+</car_shop>

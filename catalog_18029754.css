@@ -1,0 +1,160 @@
+/*company logo display properties*/
+logo {
+    content: url(logo.png);
+    height: 120px;
+    width: 150px;
+    margin-top: -150px;
+    padding-bottom:40px;
+    padding-left:30px;
+
+}
+/* displaying property of shop detail */
+shop_details {
+    display: list-item;
+    background: rgb(0,0,0);
+    height:180px;
+}
+
+shop_name {
+    font-family: Georgia, serif;
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+
+/* displaying shop information*/
+telephone_number, web_address, address {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(255, 99, 71);
+}
+
+/* displaying slogan property */
+slogan{
+display: block;
+font-size:30px;
+color: tomato;
+text-align: right;
+font-weight: bold;
+padding-top: -90px;
+padding-right:40px;
+}
+
+web_address{
+    color:whitesmoke;
+}
+/* displaying the properties of car */
+item {
+	float: left;
+    width: 48%;
+    padding :50px;
+    color:white;
+    margin:1%;
+    margin-top:2%;
+    margin-bottom:2%; 
+    font-size:17px;
+    font-family: "Gill Sans", sans-serif;
+    box-sizing: border-box; 
+    border: 1.5px solid teal;
+    background:rgb(46,139,87);
+    border-radius: 18px;
+}
+
+item_number,brand_name, quantity, price,manufacturer, car_type,
+color, dimension, GearType, seating_capacity, Displacement,
+Power, Torque, description{
+	align-content: center; 
+    display: list-item;
+    list-style: square inside;
+    margin-top: 1%;
+}
+
+item_name{
+    padding-left:35%;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size:20px;
+    padding-bottom:40px;
+}
+/* displaying car properties */
+car_image {
+	display:block;
+	content: url('city.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+    border-radius: 65px;
+}
+#c102 {
+	display:block;
+	content: url('electric.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+}
+
+#c103 {
+	display:block;
+	content: url('suv.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+}
+
+#c104 {
+	display:block;
+	content: url('hybrid.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+}
+
+#c105 {
+	display:block;
+	content: url('hatchback.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+}
+
+#c106 {
+	display:block;
+	content: url('civic.jpg');
+	height:300px;
+	width:100%; 
+	border-style: solid;
+    background:rgb(222, 233, 240);
+    padding:0px;
+}
+
+
+
+
+
+
+  
+
+
+
+
+	
+	
+    
+
+
+
+
+     

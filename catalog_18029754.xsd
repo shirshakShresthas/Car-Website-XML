@@ -1,0 +1,115 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- definition of complex root elements car_shop -->
+<xs:element name="car_shop">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="shop_details" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="items" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<!-- definition of complex shop_details elements -->
+<xs:element name="shop_details">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="shop_name" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="address" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="telephone_number" type="xs:string"/>
+                <xs:element name="web_address" type="xs:string"/>
+                <xs:element name="slogan" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="logo" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<!-- definition of  address elements -->
+    <xs:element name="address">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="format" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+<!-- definition of complex shop_name elements -->
+<xs:element name="shop_name">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="shop_id" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+<!-- definition of complex company logo elements -->
+<xs:element name="logo">
+        <xs:complexType>
+            <xs:attribute name="logo_name" type="xs:string" use="optional"/>
+            </xs:complexType>
+    </xs:element>
+ <!-- definition of complex items elements -->
+ <xs:element name="items">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="item" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+       </xs:complexType>
+    </xs:element>
+
+<!-- definition of complex item(car) elements -->
+<xs:element name="item">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="car_image" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="item_name" type="xs:string"/>
+                <xs:element name="item_number" type="xs:string"/>
+                <xs:element ref="brand_name" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="quantity" type="xs:string"/>
+                <xs:element name="price" type="xs:string"/>
+                <xs:element ref="manufacturer" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="car_type" type="xs:string"/>
+                <xs:element name="color" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="dimension" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="GearType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="seating_capacity" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Displacement" type="xs:string"/>
+                <xs:element name="Power" type="xs:string"/>
+                <xs:element name="Torque" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="description" type="xs:string"/>
+              </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+<!-- definition of complex car_image elements -->
+    <xs:element name="car_image">
+        <xs:complexType>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+            <xs:attribute name="name" type="xs:string" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="brand_name">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="brand_id" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+   </xs:element>
+<!-- definition of complex car manufacturer elements -->
+  <xs:element name="manufacturer">
+    <xs:complexType>
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="address" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
+
+
+
